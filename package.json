@@ -1,0 +1,15 @@
+{
+  "name": "quickdiff",
+  "version": "0.0.1",
+  "main": "QuickDiff.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "diff": "^8.0.3"
+  },
+  "description": "## Overview"
+}
