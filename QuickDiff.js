@@ -3,7 +3,6 @@ global.version = "0.0.1";
 
 const fs = require('fs');
 const prompt = require('prompt-sync')({});
-const PropertiesReader = require('properties-reader');
 const Logger = require('./includes/Logger');
 require('colors');
 const {diffChars} = require('diff');

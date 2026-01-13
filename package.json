@@ -9,7 +9,20 @@
   "license": "ISC",
   "devDependencies": {
     "colors": "^1.4.0",
-    "diff": "^8.0.3"
+    "diff": "^8.0.3",
+    "prompt-sync": "^4.2.0"
   },
-  "description": "## Overview"
+  "description": "## Overview",
+  "dependencies": {
+    "ansi-regex": "^4.1.1",
+    "strip-ansi": "^5.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZacksMohawk/QuickDiff.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ZacksMohawk/QuickDiff/issues"
+  },
+  "homepage": "https://github.com/ZacksMohawk/QuickDiff#readme"
 }

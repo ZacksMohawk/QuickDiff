@@ -3,7 +3,7 @@
 
 ## Overview
 
-Command line tool for quick comparison of two files
+Command line tool for quick comparison of two files.
 
 ## How To Install
 
