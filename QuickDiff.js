@@ -1,5 +1,5 @@
 global.appType = "QuickDiff";
-global.version = "0.0.1";
+global.version = "0.0.2";
 
 const fs = require('fs');
 const prompt = require('prompt-sync')({});
@@ -61,5 +61,5 @@ let diff = diffChars(fileAText, fileBText);
 
 diff.forEach((part) => {
 	let text = part.added ? part.value.bgGreen : part.removed ? part.value.bgRed : part.value;
-	process.stderr.write("\n" + text);
+	process.stderr.write(text);
 });
